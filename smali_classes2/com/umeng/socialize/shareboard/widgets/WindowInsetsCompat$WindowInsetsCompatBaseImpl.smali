@@ -1,0 +1,174 @@
+.class Lcom/umeng/socialize/shareboard/widgets/WindowInsetsCompat$WindowInsetsCompatBaseImpl;
+.super Ljava/lang/Object;
+.source "WindowInsetsCompat.java"
+
+# interfaces
+.implements Lcom/umeng/socialize/shareboard/widgets/WindowInsetsCompat$WindowInsetsCompatImpl;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/umeng/socialize/shareboard/widgets/WindowInsetsCompat;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xa
+    name = "WindowInsetsCompatBaseImpl"
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 72
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public consumeStableInsets(Ljava/lang/Object;)Lcom/umeng/socialize/shareboard/widgets/WindowInsetsCompat;
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public consumeSystemWindowInsets(Ljava/lang/Object;)Lcom/umeng/socialize/shareboard/widgets/WindowInsetsCompat;
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public getSourceWindowInsets(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public getStableInsetBottom(Ljava/lang/Object;)I
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public getStableInsetLeft(Ljava/lang/Object;)I
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public getStableInsetRight(Ljava/lang/Object;)I
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public getStableInsetTop(Ljava/lang/Object;)I
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public getSystemWindowInsetBottom(Ljava/lang/Object;)I
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public getSystemWindowInsetLeft(Ljava/lang/Object;)I
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public getSystemWindowInsetRight(Ljava/lang/Object;)I
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public getSystemWindowInsetTop(Ljava/lang/Object;)I
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public hasInsets(Ljava/lang/Object;)Z
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public hasStableInsets(Ljava/lang/Object;)Z
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public hasSystemWindowInsets(Ljava/lang/Object;)Z
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public isConsumed(Ljava/lang/Object;)Z
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public isRound(Ljava/lang/Object;)Z
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public replaceSystemWindowInsets(Ljava/lang/Object;IIII)Lcom/umeng/socialize/shareboard/widgets/WindowInsetsCompat;
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public replaceSystemWindowInsets(Ljava/lang/Object;Landroid/graphics/Rect;)Lcom/umeng/socialize/shareboard/widgets/WindowInsetsCompat;
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method

@@ -1,0 +1,81 @@
+.class Lcom/vphonegaga/titan/roles/ConfigImpl$2;
+.super Ljava/lang/Object;
+.source "ConfigImpl.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/vphonegaga/titan/roles/ConfigImpl;->setInt(Ljava/lang/String;I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/vphonegaga/titan/roles/ConfigImpl;
+
+.field final synthetic val$key:Ljava/lang/String;
+
+.field final synthetic val$value:I
+
+
+# direct methods
+.method constructor <init>(Lcom/vphonegaga/titan/roles/ConfigImpl;Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x8010,
+            0x1010,
+            0x1010
+        }
+        names = {
+            null,
+            null,
+            null
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 61
+    iput-object p1, p0, Lcom/vphonegaga/titan/roles/ConfigImpl$2;->this$0:Lcom/vphonegaga/titan/roles/ConfigImpl;
+
+    iput-object p2, p0, Lcom/vphonegaga/titan/roles/ConfigImpl$2;->val$key:Ljava/lang/String;
+
+    iput p3, p0, Lcom/vphonegaga/titan/roles/ConfigImpl$2;->val$value:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .line 64
+    iget-object v0, p0, Lcom/vphonegaga/titan/roles/ConfigImpl$2;->this$0:Lcom/vphonegaga/titan/roles/ConfigImpl;
+
+    iget-object v1, p0, Lcom/vphonegaga/titan/roles/ConfigImpl$2;->val$key:Ljava/lang/String;
+
+    iget v2, p0, Lcom/vphonegaga/titan/roles/ConfigImpl$2;->val$value:I
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-static {v0, v1, v2}, Lcom/vphonegaga/titan/roles/ConfigImpl;->-$$Nest$mbroadcastConfigChanged(Lcom/vphonegaga/titan/roles/ConfigImpl;Ljava/lang/String;Ljava/lang/Object;)V
+
+    return-void
+.end method

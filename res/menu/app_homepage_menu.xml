@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/app_homepage_menu_icon_vip" android:id="@id/nvgt_vip" android:title="@string/member" />
+    <item android:icon="@drawable/app_homepage_menu_icon_vistrual" android:id="@id/nvgt_vtl" android:title="@string/virtual" />
+    <item android:icon="@drawable/app_homepage_menu_icon_set" android:id="@id/nvgt_set" android:title="@string/setting" />
+</menu>

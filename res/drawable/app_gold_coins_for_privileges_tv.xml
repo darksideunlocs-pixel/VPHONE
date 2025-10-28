@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/dp_3" />
+    <solid android:color="@color/commonDialogTopBlockBackground" />
+    <gradient android:startColor="#ffffffff" android:endColor="#ffdee4ff" android:angle="-45.0" android:type="linear" android:centerX="0.5" android:centerY="0.4" />
+    <item android:left="153.0px" android:top="63.0px" android:right="3.0px" android:bottom="63.0px" />
+</shape>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0">
+    <channel id="10000" value="官方">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingFrameActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingDisplayActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="root=off"
+                alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.RootSettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com.bilibili.priconne,tw.sonet.princessconnect" rules="root=on"
+                alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.RootSettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10001" value="应用宝">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10002" value="华为">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10003" value="小米">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10004" value="vivo">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10005" value="oppo">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10006" value="百度">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10007" value="魅族">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10008" value="阿里">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+    <channel id="10009" value="360">
+        <list>
+            <rule id="1" packages="com.goplaycn.googleinstall" rules="googleplay=off"
+                alert="虚拟机内已自带谷歌框架套件，一键开启即可，无需再次安装" left_button="知道" right_button="立即开启"
+                left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="2" packages="com.njh.biubiu,com.tencent.xriver" rules=""
+                alert="虚拟机内已自带加速功能，无需再次安装" left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.accelerator.AcceleratorHomeActivity;i.selfAppIntent=1;i.intentId=890;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="3" packages="xzr.La.systemtoolbox" rules="" alert="虚拟机内已有自定义分辨率功能设置，无需再次安装"
+                left_button="知道" right_button="立即前往" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="4" packages="com.tianxiaj.kke,com.tianx.muuin" rules=""
+                alert="系统检测到此天下游并非修改定位版本，请前往虚拟机市场安装正确版本" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+            <rule id="5" packages="com.kingroot.kinguser" rules="" alert="虚拟机自带ROOT，无需第三方工具设置"
+                left_button="知道" right_button="立即开启" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="6" packages="com.findtheway" rules="" alert="虚拟机内部无需设置VPN，请返回真机设置VPN"
+                left_button="好的" right_button="" left_click_action="" right_click_action=""
+                left_action_loc="" right_action_loc="out" />
+            <rule id="7" packages="com-bilibili-priconne" rules="root=on" alert="此应用需要关闭root，请到设置关闭"
+                left_button="知道" right_button="立即关闭" left_click_action=""
+                right_click_action="#Intent;package=com.vphonegaga.titan;component=com.vphonegaga.titan/.setting.SettingActivity;i.selfAppIntent=1;i.intentId=897;end"
+                left_action_loc="" right_action_loc="out" />
+            <rule id="8"
+                packages="com.taptap,com.m4399.gamecenter,com.tencent.android.qqdownloader,com.upgadata.up"
+                rules="" alert="虚拟机自带应用市场，提供安全可用的软件下载" left_button="知道" right_button="立即前往"
+                left_click_action=""
+                right_click_action="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                left_action_loc="" right_action_loc="in" />
+        </list>
+    </channel>
+</root>

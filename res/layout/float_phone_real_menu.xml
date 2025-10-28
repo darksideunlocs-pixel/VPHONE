@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|top" android:layout_gravity="left|top" android:orientation="vertical" android:id="@id/float_menu_view" android:background="@drawable/corner_radius" android:descendantFocusability="blocksDescendants" android:layout_width="43.0dip" android:layout_height="155.4dip" android:layout_alignParentRight="true">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llShutDown" android:layout_width="fill_parent" android:layout_marginTop="9.0dip">
+                <Button android:id="@id/shutup_btn" android:background="@drawable/icon_off" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                <TextView android:textSize="8.0sp" android:textColor="@color/colorFloatMenuText" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/float_menu_shut_down" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llFloatWindow" android:layout_width="fill_parent" android:layout_marginTop="9.0dip">
+                <Button android:gravity="center" android:layout_gravity="center" android:id="@id/float_window_btn" android:background="@drawable/icon_floating_window" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                <TextView android:textSize="8.0sp" android:textColor="@color/colorFloatMenuText" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/float_menu_window" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llBackVirtual" android:layout_width="fill_parent" android:layout_marginTop="9.0dip">
+                <Button android:id="@id/back_virtual_btn" android:background="@drawable/icon_back_virtual" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                <TextView android:textSize="8.0sp" android:textColor="@color/colorFloatMenuText" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/float_menu_return_virtual_machine" />
+            </LinearLayout>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

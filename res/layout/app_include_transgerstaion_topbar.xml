@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewTopLine" android:background="@color/colorImportRecordBar" android:layout_width="0.0dip" android:layout_height="@dimen/dp_42" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/ivBack" android:layout_width="@dimen/dp_29" android:layout_height="@dimen/dp_29" android:src="@drawable/btn_back" android:layout_marginStart="@dimen/dp_9" app:layout_constraintBottom_toBottomOf="@id/viewTopLine" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="@dimen/dp_14" android:textColor="@color/colorWhite" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/ivBack" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/ivBack" />
+</merge>

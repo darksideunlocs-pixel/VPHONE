@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="left|top" android:layout_gravity="left|top" android:orientation="vertical" android:id="@id/float_menu_view" android:background="@drawable/corner_radius" android:descendantFocusability="blocksDescendants" android:layout_width="43.0dip" android:layout_height="153.4dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llExit" android:layout_width="fill_parent" android:layout_marginTop="9.0dip">
+                <Button android:id="@id/exit_btn" android:background="@drawable/btn_exit" android:clickable="false" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                <TextView android:textSize="8.0sp" android:textColor="@color/colorFloatMenuText" android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/back_to_app" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llFullScreen" android:layout_width="fill_parent" android:layout_marginTop="9.0dip">
+                <Button android:id="@id/full_screen_btn" android:background="@drawable/icon_full_screen" android:clickable="false" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                <TextView android:textSize="8.0sp" android:textColor="@color/colorFloatMenuText" android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/full_screen" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llFloatWindow" android:layout_width="fill_parent" android:layout_marginTop="9.0dip">
+                <Button android:id="@id/float_window_btn" android:background="@drawable/icon_swindow" android:clickable="false" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                <TextView android:textSize="8.0sp" android:textColor="@color/colorFloatMenuText" android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/float_menu_window" />
+            </LinearLayout>
+        </TableLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

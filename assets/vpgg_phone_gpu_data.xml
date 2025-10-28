@@ -1,0 +1,5 @@
+<root>
+    <item id="0" modelname="本机机型" modelname_en="Real Phone" vendor="" renderer="" hardware="" />
+    <item id="1" modelname="高帧率机型" modelname_en="High FPS" vendor="Qualcomm" renderer="Adreno (TM) 640" hardware="adreno" />
+    <item id="10000" modelname="自定义" modelname_en="Custom" vendor="" renderer="" hardware="" />
+</root>

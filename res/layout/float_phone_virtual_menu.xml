@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/float_menu_view" android:background="@drawable/corner_radius" android:paddingTop="@dimen/dp_20" android:paddingBottom="@dimen/dp_20" android:layout_width="@dimen/dp_59" android:layout_height="@dimen/dp_370" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/ivUp" android:visibility="gone" android:layout_width="@dimen/dp_11" android:layout_height="@dimen/dp_6" android:layout_marginTop="@dimen/dp_9" android:src="@drawable/btn_up" app:layout_constraintEnd_toEndOf="@id/float_menu_view" app:layout_constraintStart_toStartOf="@id/float_menu_view" app:layout_constraintTop_toTopOf="@id/float_menu_view" />
+    <ImageView android:id="@id/ivDown" android:layout_width="@dimen/dp_11" android:layout_height="@dimen/dp_6" android:layout_marginBottom="@dimen/dp_9" android:src="@drawable/btn_down" app:layout_constraintBottom_toBottomOf="@id/float_menu_view" app:layout_constraintEnd_toEndOf="@id/float_menu_view" app:layout_constraintStart_toStartOf="@id/float_menu_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

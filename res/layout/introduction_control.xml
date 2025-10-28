@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/introduction_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.common.widget.PointIndicator android:gravity="center" android:id="@id/introduction_point_indicator" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:point_drawable="@drawable/app_viewpager_rectangle_indicator_unselect" app:point_drawable_selected="@drawable/app_viewpager_rectangle_indicator_select" app:point_height="@dimen/dp_2" app:point_margin="@dimen/dp_3" app:point_width="@dimen/dp_17" />
+    <Button android:textColor="@color/introductionButtonText" android:id="@id/introduction_enter_button" android:background="@color/introductionButtonBackground" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/enter_virtual_machine" android:layout_alignParentBottom="true" style="?android:buttonBarButtonStyle" />
+</RelativeLayout>

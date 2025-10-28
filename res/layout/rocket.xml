@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="92.0dip" android:layout_height="47.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rocket_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="53.0dip" android:layout_height="47.0dip">
+                <ImageView android:background="@drawable/rocket_left" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="38.0dip" android:layout_height="23.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:background="@drawable/rocket_right" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

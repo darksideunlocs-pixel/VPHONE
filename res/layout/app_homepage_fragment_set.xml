@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivTopBg" android:layout_width="0.0dip" android:layout_height="@dimen/dp_68" android:src="@drawable/bg_setting" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/dp_18" android:textColor="#ff050505" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_12" android:text="@string/setting" android:layout_marginStart="@dimen/dp_15" app:layout_constraintBottom_toBottomOf="@id/ivTopBg" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSetting" android:background="@color/colorWhite" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivTopBg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="3.7">
+    <channel id="10000" value="官方">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="会员" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />
+            <rule_ex apk_name="com.vphonegaga.faqweb" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.faqweb;component=com.vphonegaga.faqweb/com.vphonegaga.faqweb.MainActivity;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/quick_help.png"
+                image_md5="B4530EEC6DCCCA7CFE9E3D5C4589DDAA" image_size="6442" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="快捷帮助" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.vphonegaga.appmarket" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                descrption="" id="11"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/ic_launcher.png"
+                image_md5="4a556fb6c0dc296e9fccec802db07963" image_size="5062" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="103"
+                title="应用市场" />
+        </soft>
+    </channel>
+    <channel id="10000" value="官方" language="en">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="109"
+                title="Vip" />
+            <rule_ex apk_name="com.android.vending" channels="" click_type="apk"
+                data="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.android.vending;component=com.android.vending/.AssetBrowserActivity;i.intentId=2854;i.delayedInstallation=1;end"
+                descrption="" effective_min_version_code="2009" id="16"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="9466" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="Play Store" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+                descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA Browser" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="Settings" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="Import&amp;Export" />
+        </soft>
+    </channel>
+    <channel id="10001" value="应用宝">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.vphonegaga.appmarket" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                descrption="" id="11"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/ic_launcher.png"
+                image_md5="4a556fb6c0dc296e9fccec802db07963" image_size="5062" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="103"
+                title="应用市场" />
+        </soft>
+    </channel>
+    <channel id="10002" value="华为">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.android.camera" channels="" click_type="apk"
+                data="#Intent;action=android.media.action.IMAGE_CAPTURE;launchFlags=0x10000000;i.intentId=1432;end"
+                descrption="" id="13"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/camera.png"
+                image_md5="0E8B108B971AB448F14D58974BB61FCC" image_size="16099" image_type=".png"
+                jmp_url="" min_cpu_core="" min_memory="" priority="103" title="相机" />
+        </soft>
+    </channel>
+    <channel id="10003" value="小米">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.android.camera" channels="" click_type="apk"
+                data="#Intent;action=android.media.action.IMAGE_CAPTURE;launchFlags=0x10000000;i.intentId=1432;end"
+                descrption="" id="13"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/camera.png"
+                image_md5="0E8B108B971AB448F14D58974BB61FCC" image_size="16099" image_type=".png"
+                jmp_url="" min_cpu_core="" min_memory="" priority="103" title="相机" />
+        </soft>
+    </channel>
+    <channel id="10004" value="vivo">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />            
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.android.camera" channels="" click_type="apk"
+                data="#Intent;action=android.media.action.IMAGE_CAPTURE;launchFlags=0x10000000;i.intentId=1432;end"
+                descrption="" id="13"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/camera.png"
+                image_md5="0E8B108B971AB448F14D58974BB61FCC" image_size="16099" image_type=".png"
+                jmp_url="" min_cpu_core="" min_memory="" priority="103" title="相机" />
+        </soft>
+    </channel>
+    <channel id="10005" value="oppo">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />                
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.android.camera" channels="" click_type="apk"
+                data="#Intent;action=android.media.action.IMAGE_CAPTURE;launchFlags=0x10000000;i.intentId=1432;end"
+                descrption="" id="13"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/camera.png"
+                image_md5="0E8B108B971AB448F14D58974BB61FCC" image_size="16099" image_type=".png"
+                jmp_url="" min_cpu_core="" min_memory="" priority="103" title="相机" />
+        </soft>
+    </channel>
+    <channel id="10006" value="百度">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />            
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.vphonegaga.appmarket" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                descrption="" id="11"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/ic_launcher.png"
+                image_md5="4a556fb6c0dc296e9fccec802db07963" image_size="5062" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="103"
+                title="应用市场" />
+        </soft>
+    </channel>
+    <channel id="10007" value="魅族">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />            
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.android.camera" channels="" click_type="apk"
+                data="#Intent;action=android.media.action.IMAGE_CAPTURE;launchFlags=0x10000000;i.intentId=1432;end"
+                descrption="" id="13"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/camera.png"
+                image_md5="0E8B108B971AB448F14D58974BB61FCC" image_size="16099" image_type=".png"
+                jmp_url="" min_cpu_core="" min_memory="" priority="103" title="相机" />
+        </soft>
+    </channel>
+    <channel id="10008" value="阿里">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />                
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.vphonegaga.appmarket" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                descrption="" id="11"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/ic_launcher.png"
+                image_md5="4a556fb6c0dc296e9fccec802db07963" image_size="5062" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="103"
+                title="应用市场" />
+        </soft>
+    </channel>
+    <channel id="10009" value="360">
+        <soft>
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.personalcenter.PersonalCenterActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D889%3Bend;i.selfAppIntent=1;i.intentId=2854;end"
+                descrption="" effective_min_version_code="2009" id="14"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="0e5a6079d103018a9ceb93b5e4f4fe0b" image_size="5985" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="108"
+                title="我的" />
+            <rule_ex apk_name="mark.via" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.ui.activity.BrowserActivity;i.intentId=2856;end"
+                data1000="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=mark.via;component=mark.via/mark.via.Shell;i.intentId=2856;end"
+				descrption="" id="9" effective_min_version_code="2518"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/via.png"
+                image_md5="70FE50C44679B985531AA48B7D5C80E5" image_size="3302" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="107"
+                title="VIA浏览器" />
+            <rule_ex apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.accelerator.AcceleratorHomeActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D890%3Bend;i.selfAppIntent=1;i.intentId=2855;end"
+                descrption="" effective_min_version_code="2009" id="15"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/personalcenter.png"
+                image_md5="f71c689c965e295dab9313a405e2d4ed" image_size="7387" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="106"
+                title="游戏加速" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3Bpackage%3Dcom.vphonegaga.titan%3Bcomponent%3Dcom.vphonegaga.titan%2F.setting.SettingActivity%3Bi.selfAppIntent%3D1%3Bi.intentId%3D897%3Bend;i.selfAppIntent=1;i.intentId=2342;end"
+                descrption="" id="10"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/settings.png"
+                image_md5="C2E93E77910F7062725F23510A551C45" image_size="10788" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="105"
+                title="功能设置" />
+            <rule apk_name="com.vphonegaga.tian" channels="" click_type="apk"
+                data="#Intent;component=com.android.settings/.FallbackHome;S.intentUri=%23Intent%3BlaunchFlags%3D0x10000000%3Bcomponent%3Dcom.vphonegaga.titan%2F.transfer.TransferStationActivity%3Bend;i.selfAppIntent=1;i.intentId=2346;end"
+                descrption="" id="12"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/import.png"
+                image_md5="22FF6D4503990AD01BA1DF4F30079CED" image_size="7563" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="104"
+                title="导入导出" />
+            <rule apk_name="com.vphonegaga.appmarket" channels="" click_type="apk"
+                data="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.vphonegaga.appmarket;component=com.vphonegaga.appmarket/.AppMarketActivity;i.intentId=6453;end"
+                descrption="" id="11"
+                image_download_url="https://static.gsxnj.cn/images/img/ads/ic_launcher.png"
+                image_md5="4a556fb6c0dc296e9fccec802db07963" image_size="5062" image_type=".png"
+                jmp_url="http://www.smartgaga.com" min_cpu_core="" min_memory="" priority="103"
+                title="应用市场" />                
+        </soft>
+    </channel>
+</root>

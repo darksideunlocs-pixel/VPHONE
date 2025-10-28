@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<config version="1">
+		<item id="1" manufacturer="Meizu" model="PRO 7 Plus" directrender="0" />
+		
+		<item id="100" manufacturer="Xiaomi" model="MI 2S" directrender="0" />
+		
+		<item id="200" manufacturer="OPPO" model="PCPM00" directrender="0" />
+		<item id="201" manufacturer="OPPO" model="OPPO A33" directrender="0" />
+	</config>
+</root>

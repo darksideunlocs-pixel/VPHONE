@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_include_setting_topbar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:layout_marginBottom="@dimen/dp_1">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/dp_14" android:textColor="@color/setting_text_common" android:gravity="start|center" android:id="@id/tvRoot" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/dp_51" android:text="@string/open_super_user" android:paddingStart="@dimen/dp_20" android:paddingEnd="@dimen/dp_60" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.suke.widget.SwitchButton android:id="@id/sbRoot" android:layout_width="@dimen/dp_41" android:layout_height="@dimen/dp_23" android:layout_marginEnd="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:sb_background="@color/setting_text_secondary" app:sb_button_color="@color/colorWhite" app:sb_checked="true" app:sb_checked_color="@color/textBlue" app:sb_show_indicator="false" app:sb_uncheck_color="@color/setting_text_secondary" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/flVIPOnly" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:layout_marginBottom="@dimen/dp_1">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/dp_14" android:textColor="@color/setting_text_common" android:gravity="start|bottom" android:id="@id/tvVIPOnly" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/dp_51" android:text="@string/vip_only" android:paddingStart="@dimen/dp_20" android:paddingEnd="@dimen/dp_60" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/flRootAllowSelectedApps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:layout_marginBottom="@dimen/dp_1">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/dp_14" android:textColor="@color/setting_text_common" android:gravity="start|center" android:id="@id/tvRootAllowSelectedApps" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/dp_51" android:text="@string/super_user_allow_apps_hint" android:paddingStart="@dimen/dp_30" android:paddingEnd="@dimen/dp_60" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.suke.widget.SwitchButton android:id="@id/sbRootAllowSelectedApps" android:layout_width="@dimen/dp_41" android:layout_height="@dimen/dp_23" android:layout_marginEnd="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:sb_background="@color/setting_text_secondary" app:sb_button_color="@color/colorWhite" app:sb_checked="false" app:sb_checked_color="@color/textBlue" app:sb_show_indicator="false" app:sb_uncheck_color="@color/setting_text_secondary" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/flRootApps" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rlLoadingView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="20.0dip" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/transfer_data_loading" />
+        </RelativeLayout>
+        <ListView android:id="@id/lvRootApps" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <TextView android:gravity="center" android:id="@id/tvRootAppsEmpty" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/super_user_apps_list_empty" />
+    </FrameLayout>
+</LinearLayout>

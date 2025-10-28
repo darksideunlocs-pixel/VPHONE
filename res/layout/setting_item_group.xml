@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@color/colorBlack" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/setting_item_group_name" android:layout_width="wrap_content" android:layout_height="52.0dip" android:layout_marginLeft="20.0dip" android:text="hello test" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="end" android:id="@id/setting_item_group_select" android:layout_width="43.0dip" android:layout_height="24.0dip" android:layout_marginRight="26.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <ImageView android:background="@color/colorGroupDivide" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/touch_view" android:visibility="visible" android:descendantFocusability="blocksDescendants" android:layout_width="35.0dip" android:layout_height="35.0dip">
+        <ImageView android:id="@id/ivBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_suspended_ball" />
+        <RelativeLayout android:id="@id/float_ball_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:background="@drawable/logo_external" android:layout_width="19.0dip" android:layout_height="14.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="6.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="8.0dip" android:textStyle="bold" android:textColor="@color/textBlue" android:id="@id/tvId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_alignParentTop="true" android:layout_marginEnd="1.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,60 @@
+.class Lcom/umeng/socialize/shareboard/widgets/KeyEventCompat$HoneycombKeyEventVersionImpl;
+.super Lcom/umeng/socialize/shareboard/widgets/KeyEventCompat$BaseKeyEventVersionImpl;
+.source "KeyEventCompat.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/umeng/socialize/shareboard/widgets/KeyEventCompat;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xa
+    name = "HoneycombKeyEventVersionImpl"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 118
+    invoke-direct {p0, v0}, Lcom/umeng/socialize/shareboard/widgets/KeyEventCompat$BaseKeyEventVersionImpl;-><init>(Lcom/umeng/socialize/shareboard/widgets/KeyEventCompat$1;)V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/umeng/socialize/shareboard/widgets/KeyEventCompat$1;)V
+    .locals 0
+
+    .line 118
+    invoke-direct {p0}, Lcom/umeng/socialize/shareboard/widgets/KeyEventCompat$HoneycombKeyEventVersionImpl;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public metaStateHasModifiers(II)Z
+    .locals 0
+
+    .line 122
+    invoke-static {p1, p2}, Landroid/view/KeyEvent;->metaStateHasModifiers(II)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public metaStateHasNoModifiers(I)Z
+    .locals 0
+
+    .line 127
+    invoke-static {p1}, Landroid/view/KeyEvent;->metaStateHasNoModifiers(I)Z
+
+    move-result p1
+
+    return p1
+.end method
